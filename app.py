@@ -53,7 +53,7 @@ async def log_request(logger, body, next):
 @slack_app.event("app_mention")
 async def event_test(body, say, logger):
     logger.info(body)
-    await say("What's up yo?")
+    await say("What's up soaker?")
 
 
 @slack_app.event("message")
