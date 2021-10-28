@@ -339,7 +339,7 @@ async def command(ack, body, respond, client, logger):
                 "type": "plain_text_input",
                 "multiline": True,
                 "action_id": "plain_text_input-action",
-                "initial_value": "WARMUP: \nTHE THANG: \nMARY: \nANNOUNCEMENTS: \nCOT: ",
+                "initial_value": "NMS: \nWARMUP: \nTHE THANG: \nMARY: \nANNOUNCEMENTS: \nCOT: ",
                 "placeholder": {
                     "type": "plain_text",
                     "text": "Tell us what happened\n\n"
@@ -478,7 +478,7 @@ async def view_submission(ack, body, logger, client):
             ao_msg = f"AO: " + (ao_name or '').replace('the', '').title()
             q_msg = f"Q: " + q_name
             pax_msg = f"PAX: " + pax_names
-            fngs_msg = f"FNGs: " + fngs
+            fngs_msg = f"FNGs, Willy Lomans, and the Slackless: " + fngs
             count_msg = f"COUNT: " + count
             moleskine_msg = moleskine
 
