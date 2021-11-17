@@ -308,7 +308,7 @@ async def command(ack, body, respond, client, logger):
                 "initial_value": "None",
                 "placeholder": {
                     "type": "plain_text",
-                    "text": "FNGs"
+                    "text": "FNGs, Willy Lomans, and the Slackless"
                 }
             },
             "label": {
