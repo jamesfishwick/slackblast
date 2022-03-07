@@ -313,7 +313,7 @@ async def command(ack, body, respond, client, logger):
             },
             "label": {
                 "type": "plain_text",
-                "text": "List untaggable names separated by commas (FNGs, Willy Lomans, etc.)"
+                "text": "List untaggable names separated by commas (FNGs, Willy Lomans, the Slackless etc.)"
             }
         },
         {
@@ -324,7 +324,7 @@ async def command(ack, body, respond, client, logger):
                 "action_id": "count-action",
                 "placeholder": {
                     "type": "plain_text",
-                    "text": "Total PAX count including FNGs"
+                    "text": "Total PAX count including those not on Slack"
                 }
             },
             "label": {
